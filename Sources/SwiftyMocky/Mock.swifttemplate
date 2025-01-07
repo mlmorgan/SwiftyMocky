@@ -1604,6 +1604,7 @@ class VariableWrapper {
     }
 }
 _%>
+<%_
 func generate(type: Type, methodRegistrar: MethodRegistrar, subscriptRegistrar: SubscriptRegistrar) async -> String {
     var sourceryBuffer: String = ""
     var mockedCount = 0
